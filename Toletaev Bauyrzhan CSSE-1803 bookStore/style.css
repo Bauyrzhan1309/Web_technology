@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+}*,
+ *:before,
+ *:after {
+
+     box-sizing: border-box;
+ }
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.main {
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    width: 960px;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 20px 0 16px 0;
+    border-bottom: 1px solid #c0c0c0;
+    overflow: hidden;
+
+}
+
+.header {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+
+    color: #cd5e07;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.nav_link:hover {
+    color: #090902;
+}
+
+.intro {
+    height: 380px;
+    margin: 30px 478px 0;
+    background: url("creativedes.jpg") no-repeat;
+    position: relative;
+}
+.line {
+    max-width: 960px;/* Убираем границу */
+    background-color: #c0c0c0; /* Цвет линии */
+    color: #c0c0c0; /* Цвет линии для IE6-7 */
+    height: 1px;
+    margin: 30px auto;
+}
+
+.container21 {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.row {
+    width: 320px;
+    float:left;
+}
+.col-4 {
+    width: 310px;
+    float:left;
+    margin-right: 0px;
+}
+.row:after {
+    clear: both;
+    content:"";
+    display:inline-block;
+
+}
+.text4{
+    font-size: 14px;
+    align-items: center;
+}
+.obw{
+    width: 960px;
+    padding-top: 580px;
+    /*position: absolute;*/
+    top: 0;
+    left: 478px;
+    right: 0px;
+}
+.line4 {
+    max-width: 300px; /* Убираем границу */
+    background-color: #130b0b; /* Цвет линии */
+    color: #130b0b; /* Цвет линии для IE6-7 */
+    height: 4px;
+    margin: 5px auto;
+}
+h2{
+    font-size: 14px;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.up {
+    font-size: 10px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #cd5e07;
+}
+.Raf {
+
+}
+.aa{
+    width: 960px;
+    padding: 20px 0 16px 0;
+    border-bottom: 1px solid #c0c0c0;
+    overflow: hidden;
+    margin: 10px auto;
+
+}
+.col-5 {
+    width: 230px;
+    float:left;
+    margin-right: 10px;
+}
+.col-6 {
+    width: 640px;
+    float: left;
+    margin-right: 0px;
+
+}
+.col-7{
+    width: 310px;
+    float:left;
+    margin-right: 0px;
+
+}
+.col-8{
+    width: 310px;
+    float:left;
+    margin-right: 0px;
+
+}
+.col-9{
+    width: 310px;
+    float:left;
+    margin-right: 0px;
+
+}
+
+.row2{
+    width: 960px;
+}
+.col-10{
+    width: 100%;
+    float:left;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+    background: #cfcdcd;
+}
+.col-11 {
+    width: 960px;
+    height: 130px;
+    float: left;
+    margin-right: 0px;
+    border-top: 1px solid #c0c0c0;
+    overflow: hidden;
+    margin: 40px 0px 20px 0px;
+}
+.col12{
+    width: 960px;
+    height: 130px;
+}
